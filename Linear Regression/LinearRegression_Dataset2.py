@@ -6,7 +6,7 @@ get_ipython().run_line_magic('matplotlib', 'inline')
 import numpy as np
 import matplotlib.pyplot as plt
 import scipy.io as sio
-dataset1 = sio.loadmat('HW1_Data/dataset1')
+dataset1 = sio.loadmat('./dataset1')
 import q10_1 as reg
 
 X_train, y_train = dataset1['X_trn'], dataset1['Y_trn']

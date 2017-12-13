@@ -7,7 +7,7 @@ import numpy as np
 import scipy.io as sio
 import matplotlib.pyplot as plt
 
-dataset1 = sio.loadmat('HW1_Data/dataset1')
+dataset1 = sio.loadmat('./dataset1')
 X_train, y_train = dataset1['X_trn'], dataset1['Y_trn']
 X_train.shape, y_train.shape
 X_test, y_test = dataset1['X_tst'], dataset1['Y_tst']
