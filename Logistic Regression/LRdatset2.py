@@ -73,7 +73,7 @@ def plot_prediction(weight,X,y,title = 'train set'):
     plt.show()
 
 
-data = sio.loadmat("HW2_Data/data2.mat")
+data = sio.loadmat("./data2.mat")
 X_train = data['X_trn']
 y_train = data['Y_trn']
 X_test = data['X_tst']
